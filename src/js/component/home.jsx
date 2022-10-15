@@ -6,10 +6,10 @@ import "../../styles/index.css";
 
 function Home() {
 	return (
-		<div className="text-center mt-5 col-sm-6">
-			<h1>To Do List</h1>
-			<Form />
-		</div>
+
+			<div >
+				<Form />
+			</div>
 	);
 }
 

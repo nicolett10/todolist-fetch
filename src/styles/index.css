@@ -1,0 +1,84 @@
+.contenedorPrincipal{
+    background-color: rgb(174, 157, 189);
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    height: 100vh;
+    
+}
+
+h1{
+    color: rgb(65, 33, 103);
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 5px 3px 5px azure;
+    
+}
+
+.contenedorTareas{
+    display:inline;
+    align-items: center;  
+    justify-content: center;
+}
+
+input {
+    line-height: 30px;
+    padding: 0 20px;
+    margin: 0 10px 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 3px 5px rgb(96, 95, 95);
+}
+
+.btn-add{
+    background-color: rgb(241, 245, 244);
+    color: rgb(26, 3, 37);
+    padding: 3px 10px 3px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px rgb(96, 95, 95);
+}
+
+
+.item-list {
+    color: white;
+    /* display: flex; */
+    justify-content: center;  
+    text-align: center;
+    margin: 0;
+}
+
+.task{
+    font-size: larger;
+    margin-bottom: 2px;
+    margin-top: 10px;
+
+}
+
+.btn-delete{
+
+    display: inline-block;
+    margin: 1px 0 1px 0;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 3px 5px rgb(96, 95, 95);
+
+}
+
+.btnBorrar{
+    background-color: rgb(241, 219, 238);
+    color: rgb(29, 4, 45);
+    margin-top: 40px;
+    margin-bottom: 100px;
+    box-shadow: 5px 3px 5px rgb(96, 95, 95);
+    font-size:x-large;
+    border-radius: 5px;
+}
+
+.btnBorrar:hover{
+    background-color: rgb(212, 192, 206);
+    color: rgb(29, 6, 49);
+}

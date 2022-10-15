@@ -28,16 +28,15 @@ function Task(props) {
 	};
 
 	return (
-		<div>
-			{props.list.map((newlist, index) => {
+		<div >
+			{props?.list.map((newlist, index) => {
 				if (newlist.label != "") {
 					return (
 						<div key={index} className="item-list">
-							<p>{newlist.label}</p>
+							<p className="task">{newlist.label}</p>
 							<button
 								className="btn-delete"
-								onClick={() => taskDeleted(newlist.label)}>
-								<i className="fas fa-minus" />
+								onClick={() => taskDeleted(newlist.label)}> Delete 
 							</button>
 						</div>
 					);
